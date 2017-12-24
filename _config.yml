@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Samrudh Sharma
 email: samrudh3637@gmail.com
@@ -58,3 +59,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+=======
+theme: jekyll-theme-cayman
+>>>>>>> ec2899433e3383363285a67da4d5d05acaea1a1d
