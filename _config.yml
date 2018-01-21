@@ -1,60 +1,42 @@
 # Site settings
 title: Samrudh Sharma
-email: samrudh3637@gmail.com
-url: https://samrudhsharma.com
-description: "Samrudh Sharma"
-keywords: "your keywords, separated by commas"
-skills: "Deep Learning Enthusiast - Electronics and Computer Engineering Student at the University of Leeds, UK"
-meta_author: Sharma Samrudh
+description: "I'm a 3rd year student in Electronics and Computer Engineering at The University Of Leeds, an incoming Technology Analyst at Goldman Sachs, London and a Deep Learning enthusiast."
+url: 'http://samrudhsharma.com'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-# Google webmaster tools
-google_verify:
+author:
+  name: 'Samrudh Sharma'
+  email: samrudh3637@gmail.com 
+  facebook_username: samrudhsharma
+  github_username:  samrudhsharma
+  linkedin_username:  samrudhsharma
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Samrudh Sharma
-  #location: Location
-  social: Around the Web
-  #credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: github
-    url: https://github.com/samrudhsharma
-  - title: linkedin
-    url: https://www.linkedin.com/in/samrudhsharma/
-  - title: facebook
-    url: https://www.facebook.com/samrudh.sharma
-
-
-# Postal address (add as many lines as necessary)
-#address:
- # - line: 47 Kensingon Terrace
- # - line: Leeds, UK LS6 1BE
-
-# Credits content
-#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
-permalink: pretty
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
