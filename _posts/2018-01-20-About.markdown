@@ -1,0 +1,13 @@
+---
+title:  "About"
+date:   2018-01-20 14:00:00
+categories: 
+tags: 
+---
+I am a 3rd year MEng student in Electronics and Computer Engineering at the University Of Leeds. I am passionate about Deep Learning and Artificial Intelligence.
+
+During the summer of 2018, I will be working as a Technology Analyst at Goldman Sachs, London.
+
+Have a look at my [CV][CV_URL] for more information. 
+
+[CV_URL]:	http://localhost:4000/assets/SamrudhSharma_CV.pdf
