@@ -10,4 +10,4 @@ During the summer of 2018, I will be working as a Technology Analyst at Goldman 
 
 Have a look at my [CV][CV_URL] for more information. 
 
-[CV_URL]:	http://localhost:4000/assets/SamrudhSharma_CV.pdf
+[CV_URL]:	http://samrudhsharma.com/assets/SamrudhSharma_CV.pdf
